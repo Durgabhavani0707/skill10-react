@@ -1,11 +1,7 @@
-import StudentManager from "./StudentManager";
+import Dashboard from "./components/Dashboard";
 
 function App() {
-  return (
-    <div>
-      <StudentManager />
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;
